@@ -45,7 +45,7 @@ int main(){
 			cin.ignore(50,'\n');
 		}
 		catch(...){
-			cout << "Memory leak!!!!!"<<endl;
+			cout << "Memory leak!!!"<<endl;
 			a=0;
 		}
 	}
